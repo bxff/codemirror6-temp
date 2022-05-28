@@ -1,0 +1,23 @@
+{
+  "name": "replace-decoration-replacing-ranges-bug",
+  "version": "1.0.0",
+  "description": "https://discuss.codemirror.net/t/replace-decoration-replaces-the-range-in-document-when-line-moves-up/4353",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@codemirror/basic-setup": "0.20.0",
+    "@codemirror/view": "0.20.6"
+  },
+  "devDependencies": {
+    "typescript": "4.2.3"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [
+    "codemirror"
+  ]
+}
